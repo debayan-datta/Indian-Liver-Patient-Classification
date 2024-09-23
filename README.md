@@ -38,10 +38,11 @@ The project involves the classification of Indian liver patients based on medica
 
 
 
-## Modeling
+## Modelling
 
 The prediction task is to determine whether a patient suffers from liver disease based on the information about several biochemical markers, including albumin and other enzymes required for metabolism.
-You can find the code in Modelling.ipynb
+You can find the code in Modelling.ipynb. The models used are:
+
 - Baseline Model (Dummy Classifier)
 - Logistic Regression
 - KNN
