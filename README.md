@@ -4,6 +4,7 @@
 
 The project involves the classification of Indian liver patients based on medical data. It utilizes machine learning techniques to distinguish between patients with liver disease and healthy individuals, focusing on predictive modeling to improve diagnostic accuracy.
 
+
 ## Dataset Description
 
 - Dataset is available at [here](https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset)
@@ -30,11 +31,17 @@ The project involves the classification of Indian liver patients based on medica
 
 
 ## Exploratory Data Analysis
+- Univariate Analysis to see the distribution of individual features
+- Bivariate Analysis to check how specific features are highly dependent.
+- Cross Tabulations
+- Statistical Tests
+
 
 
 ## Modeling
 
 The prediction task is to determine whether a patient suffers from liver disease based on the information about several biochemical markers, including albumin and other enzymes required for metabolism.
+You can find the code in Modelling.ipynb
 - Baseline Model (Dummy Classifier)
 - Logistic Regression
 - KNN
